@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#795aeb" />
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="themechanger">
+        <i onclick="" id="moon" class="bi bi-moon moon"></i>
+        <i class="bi bi-brightness-low-fill sun"></i>
+      </div>
+      <div class="calculator">
+        <input class="livescreen" type="text" placeholder="0" />
+        <input class="first-row cal modulus numbers" type="button" value="%" />
+        <input
+          class="first-row clear"
+          type="button"
+          value="C"
+          onclick="display.value=''"
+        />
+        <input class="first-row cal divide numbers" type="button" value="/" />
+        <input class="change-color del cancel" type="button" value="" />
+        <input class="s numbers" type="button" value="7" />
+        <input class="s numbers" type="button" value="8" />
+        <input class="s numbers" type="button" value="9" />
+        <button
+          class="multiply change-color cal numbers"
+          type="button"
+          value="*"
+        >
+          x
+        </button>
+        <input class="s numbers" type="button" value="4" />
+        <input class="s numbers" type="button" value="5" />
+        <input class="s numbers" type="button" value="6" />
+        <input class="change-color cal numbers" type="button" value="-" />
+        <input class="s numbers" type="button" value="1" />
+        <input class="s numbers" type="button" value="2" />
+        <input class="s numbers" type="button" value="3" />
+        <input class="change-color cal numbers" type="button" value="+" />
+        <input class="s numbers" type="button" value="0" />
+        <input class="s numbers" type="button" value="." />
+        <input
+          class="equal"
+          type="button"
+          value="="
+          onclick="calculate(display.value)"
+        />
+      </div>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

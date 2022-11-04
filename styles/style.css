@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 20px;
+}
+body {
+  background-color: #09090a;
+  height: 100vh;
+  color: #fff;
+  width: 100vw;
+}
+.container {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.themechanger {
+  position: relative;
+}
+.sun {
+  position: absolute;
+  left: 8rem;
+  top: 1rem;
+  cursor: pointer;
+}
+.moon {
+  display: block;
+  position: absolute;
+  left: 8rem;
+  top: 1rem;
+  color: #09090a;
+  cursor: pointer;
+}
+.calculator {
+  height: 20rem;
+  width: 14rem;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.livescreen {
+  width: 91%;
+  border: none !important;
+  font-size: 1rem !important;
+  background-color: transparent;
+  color: var(--white);
+  text-align: end;
+  grid-column: span 4;
+  pointer-events: none;
+}
+.livescreen:focus {
+  outline: none;
+}
+.cal {
+  border: none;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: #ebebeb;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cal:hover {
+  color: #ebebeb;
+  background-color: #795aeb;
+  opacity: 0.8;
+}
+.s {
+  border: none;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: #ebebeb;
+  background-color: transparent;
+  cursor: pointer;
+}
+.s:hover {
+  color: #ebebeb;
+  background-color: #795aeb;
+  opacity: 0.8;
+}
+.clear {
+  font-size: 0.8rem;
+  background-color: transparent;
+  border: none;
+  font-size: initial;
+}
+.clear:hover {
+  background-color: #795aeb;
+  color: #ebebeb;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.del {
+  font-size: 0.8rem;
+  border-radius: 10px;
+  border: none;
+}
+.equal {
+  border: none;
+  border-radius: 15px;
+  grid-column: span 2;
+  color: #ebebeb;
+  background-color: #795aeb;
+}
+.equal:hover {
+  background-color: #795aeb;
+  opacity: 0.5;
+}
+.cancel {
+  background-image: url(assets/close-tab.svg);
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+.first-row {
+  color: #795aeb;
+}
+.change-color {
+  background-color: #795aeb;
+  color: #ebebeb !important;
+}
+.change-color:hover {
+  opacity: 0.5;
+}
