@@ -1,4 +1,4 @@
-<h1>Caculator With Theme Changer</h1>
+<h1>Calculator With Theme Changer</h1>
 <br>
 <h2 align="center">Project Preview</h2>
 <br>
