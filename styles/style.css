@@ -6,11 +6,13 @@
 :root {
   font-size: 20px;
 }
+html,
 body {
   background-color: #09090a;
   height: 100vh;
   color: #fff;
-  width: 100vw;
+  min-width: 100%;
+  overflow-x: hidden;
 }
 .container {
   height: 100%;
@@ -45,10 +47,10 @@ body {
   gap: 5px;
   grid-template-columns: repeat(4, 1fr);
 }
-.livescreen {
+.container .livescreen {
   width: 91%;
   border: none !important;
-  font-size: 1rem !important;
+  font-size: 1rem;
   background-color: transparent;
   color: var(--white);
   text-align: end;
@@ -127,4 +129,28 @@ body {
 }
 .change-color:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 470px) {
+  .calculator {
+    height: 19rem;
+    width: 13rem;
+  }
+  .container .livescreen {
+    font-size: 0.9rem;
+  }
+  .cal {
+    font-size: 0.7rem;
+  }
+  .clear {
+    font-size: 0.7rem;
+  }
+  .moon {
+    position: absolute;
+    left: 7.4rem;
+  }
+  .sun {
+    position: absolute;
+    left: 7.4rem;
+  }
 }
