@@ -3,7 +3,7 @@
 <div align="center">
 <h2 align="center">Project Preview</h2>
 <br>
-<img width='85%' src = "https://github.com/D-pak24/Calculator-24/blob/ea90da39b43e5c20a4f91800f086c078b7501ba2/assets/preview.jpg">
+<img width='75%' src = "https://github.com/D-pak24/Calculator-24/blob/ea90da39b43e5c20a4f91800f086c078b7501ba2/assets/preview.jpg">
 </div>
 <br>
 [Live]:https://dpak24-calculator.netlify.app/
