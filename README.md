@@ -1,5 +1,3 @@
-<h1>Calculator With Theme Changer</h1>
-<br>
 <div align="center">
 <h2 align="center">Project Preview</h2>
 <br>
